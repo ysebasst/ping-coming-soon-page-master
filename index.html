@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- displays site properly based on user's device -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- FAVICON -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <!-- CUTOM CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- TITLE -->
+    <title>Frontend Mentor | Ping coming soon page</title>
+  </head>
+  <body>
+    <div class="container">
+      <main>
+        <img class="logo" src="images/logo.svg" alt="logo" />
+        <div class="hero">
+          <h1><span>We are launching</span> soon!</h1>
+          <p>Subscribe and get notified</p>
+          <form id="form-notify" novalidate>
+            <div class="form-group">
+              <input
+                type="email"
+                name="email"
+                placeholder="Your email address..."
+                required
+              />
+              <p>Please provide a valid email address</p>
+            </div>
+            <button type="submit">Notify Me</button>
+          </form>
+        </div>
+      </main>
+      <img
+        class="dashboard"
+        src="images/illustration-dashboard.png"
+        alt="dashboard"
+      />
+      <div class="social">
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-instagram"></i>
+      </div>
+      <footer>&copy; Copyright Ping. All rights reserved.</footer>
+    </div>
+
+    <p class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
+        Frontend Mentor
+      </a>
+      . Coded by <a href="https://github.com/ysebasst">Sebastian Sierra</a>.
+    </p>
+    <script src="app.js"></script>
+  </body>
+</html>
